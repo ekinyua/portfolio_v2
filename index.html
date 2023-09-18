@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                headColor: '#21243D',
+                textColor: '#21243D',
+                backgroundColor: '#EDF7FA',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class="flex flex-col max-w-screen-lg mx-auto min-h-screen align-center justify-center">
+    <nav class="flex flex-row list-none justify-end p-4 m-4">
+        <div class="flex flex-row list-none align-right">
+            <ul class="flex">
+                <li><a href="" class="px-4 font-bold">Works</a></li>
+                <li><a href="" class="px-4 font-bold">Blog</a></li>
+                <li><a href="" class="px-4 font-bold">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="justify-center align-center">
+            <div class="flex flex-row justify-between mt-10 mb-10">
+                <div>
+                    <h2 class="font-bold text-3xl mb-4">Hi, I am Elvis <br> Creative technologist</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim doloribus <br> sequi mollitia expedita? Nam, facilis itaque adipisci officiis ea nisi officia <br> laudantium quaerat deleniti, eos atque saepe odit aliquam voluptas?</p>
+
+                    <div>
+                        <a href="" class="inline-block bg-red-700 hover:bg-red-500 text-white font-bold py-2 px-4 rounded mt-4"> Download Resume</a>
+                    </div>
+                </div>
+                <img src="img/profile-photo.svg" class="w-[5px] md:w-1/5" alt="Profile photo">
+            </div>
+
+            <div class="mx-auto justify-center bg-backgroundColor mt-10 mb-10 px-10 py-6">
+                <div class="flex flex-row justify-between m-auto py-2">
+                    <p>Recent posts</p>
+                    <a href="" class="text-blue-300"> View all</a>
+                </div>
+
+                <div class="flex flex-row justify-between m-auto">
+                    <div class="items-center justify-center w-[450px] h-[250px] shadow-md px-4 py-2 bg-white">
+                        <h2 class="text-xl font-bold text-headColor">Making a design from scratch</h2>
+                        <p class="flex mt-4 mb-4"> 12th Feb 2020 <span class="mx-6"> | </span> Design, Pattern</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam aliquam voluptatem adipisci earum, dignissimos animi odio, facere veritatis repellat molestias delectus quos non atque corporis, quaerat voluptatum ipsum quia similique?</p>
+                    </div>
+                    <div class="items-center justify-center w-[450px] h-[250px] bg-blue px-4 py-2 shadow-md bg-white">
+                        <h2 class="text-xl font-bold text-headColor">Creating pixel perfect icons in Figma</h2>
+                        <p class="flex mt-4 mb-4"> 12th Feb 2022 <span class="mx-6"> | </span> Figma, Icon Design</p>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, optio fugit laboriosam ad necessitatibus eum ratione autem atque eligendi omnis totam neque accusantium corrupti eaque tempore consequatur id laudantium fugiat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h6> Featured works</h6>
+
+                <div>
+                    <div class="flex mt-5 mb-5">
+                        <img src="img/box_img-1.svg" alt="box_img-1">
+                        <div class="flex flex-col mx-5">
+                            <h2 class="text-2xl font-bold text-headColor"> Designing Dashboards </h2>
+                            <p class="text-gray-400 font-normal"><span class="inline-block px-1 py-1/2 mr-10 bg-blue-900 text-white rounded-lg box-border font-bold"> 2020 </span> Dashboard </p>
+                            <p class="text-textColor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores dignissimos omnis voluptatibus ullam voluptatum similique voluptatem quidem alias, deleniti nam qui magni ad. Itaque esse alias voluptatum, et vero cumque.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex mt-5 mb-5">
+                        <img src="img/box_img-2.svg" alt="box_img-2">
+                        <div class="flex flex-col mx-5">
+                            <h2 class="text-2xl font-bold text-headColor"> Vibrant Portraits of 2020 </h2>
+                            <p class="text-gray-400 font-normal"><span class="inline-block px-1 py-1/2 mr-10 bg-blue-900 text-white rounded-lg box-border font-bold"> 2018 </span> Illustration </p>
+                            <p class="text-textColor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores dignissimos omnis voluptatibus ullam voluptatum similique voluptatem quidem alias, deleniti nam qui magni ad. Itaque esse alias voluptatum, et vero cumque.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="flex mt-5 mb-5">
+                            <img src="img/box_img-3.svg" alt="box_img-3">
+                            <div class="flex flex-col mx-5">
+                                <h2 class="text-2xl font-bold text-headColor"> 36 Days of Malayalam type </h2>
+                                <p class="text-gray-400 font-normal"><span class="inline-block px-1 py-1/2 mr-10 bg-blue-900 text-white rounded-lg box-border font-bold"> 2018 </span> Typography </p>
+                                <p class="text-textColor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores dignissimos omnis voluptatibus ullam voluptatum similique voluptatem quidem alias, deleniti nam qui magni ad. Itaque esse alias voluptatum, et vero cumque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <footer class="my-10">
+                    <div class="flex flex-row list-none justify-center mt-12 mb-4">
+                        <ul class="flex flex-row justify-center align-center list-none">
+                            <li><a href=""> <img src="img/fb.svg" alt="Facebook" class="px-4"></a></li>
+                            <li><a href=""> <img src="img/insta.svg" alt="Instagram" class="px-4"></a></li>
+                            <li><a href=""> <img src="img/Twitter (2).svg" alt="Twitter" class="px-4"></a></li>
+                            <li><a href=""> <img src="img/Linkedin.svg" alt="LinkedIn" class="px-4"></a></li>
+                        </ul>
+                    </div>
+                    <p class="text-center"> Copyright &#169 2023 All rights served </p>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
